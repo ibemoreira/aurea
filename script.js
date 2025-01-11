@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyAapiu6WU2-MYYVKpr124Sv5CnGunYKc_I'
+const apiKey = 'Your_Key'
 
 async function enviarImagem() {
     try {
