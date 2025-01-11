@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Aurea</title>
+</head>
+<body>
+    <header>
+    </header>
+    
+    
+    <main>
+            <h1>Desafio - Aurea</h1>
+            <h2>Envie uma imagem ou vídeo para a IA e receba uma descrição</h2>
+            
+            <div>
+                <!-- Input para Imagem -->
+                <h3>Enviar Imagem</h3>
+                <input type="file" id="imagem">
+                <button onclick="enviarImagem()">Enviar Imagem</button>
+                <div class="loader" id="loaderImg"></div>
+                <p id="descricao"></p>  
+                <img id="imagem-enviada" >
+            </div>
+            
+            
+            <div>
+                <!-- Input para Vídeo -->
+                <h3>Enviar Vídeo</h3>
+                <input type="file" id="video">
+                <button onclick="enviarVideo()">Enviar Vídeo</button>
+                <div class="loader" id="loader"></div>
+                <p id="descricaoVideo"></p>  
+                <!-- video  -->
+            </div>
+            
+            
+            
+            <p>Desenvolvido por Wilbert Santos</p>
+        </main>
+    
+    <footer>
+    </footer>
+</body>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</html>
